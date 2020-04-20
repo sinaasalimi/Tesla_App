@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/navigation_home"
+  app:startDestination="@+id/edu_vid">
+
+
+  <fragment
+    android:id="@+id/library"
+    android:name="com.example.test_bottom.itemOfFragments.library.Library"
+    android:label="Library"
+    tools:layout="@layout/library" >
+
+    <action
+      android:id="@+id/action_library_to_section"
+      app:destination="@id/section" />
+  </fragment>
+
+  <fragment
+    android:id="@+id/section"
+    android:name="com.example.test_bottom.itemOfFragments.library.Section"
+    android:label="Section"
+    tools:layout="@layout/section" />
+
+  <fragment
+    android:id="@+id/edu_vid"
+    android:name="com.example.test_bottom.itemOfFragments.educational_videos.Educational_Videos"
+    android:label="Educational Videos"
+    tools:layout="@layout/educational_videos" >
+    <action
+      android:id="@+id/action_edu_vid_to_all_Videos"
+      app:destination="@id/all_Videos" />
+  </fragment>
+  <fragment
+    android:id="@+id/all_Videos"
+    android:name="com.example.test_bottom.itemOfFragments.educational_videos.All_Videos"
+    android:label="All Videos"
+    tools:layout="@layout/all_videos" />
+</navigation>

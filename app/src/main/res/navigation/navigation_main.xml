@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  app:startDestination="@id/downloads"
+  android:id="@+id/navigation_main">
+
+  <fragment
+    android:id="@+id/downloads"
+    android:name="com.example.test_bottom.itemOfFragments.downloads.Downloads"
+    android:label="downloads"
+    tools:layout="@layout/downloads" >
+    <action
+      android:id="@+id/action_downloads_to_videos_File"
+      app:destination="@id/videos_File" />
+  </fragment>
+
+  <fragment
+    android:id="@+id/videos_File"
+    android:name="com.example.test_bottom.itemOfFragments.downloads.Videos_File"
+    android:label="videos_file"
+    tools:layout="@layout/videos_file" />
+  <fragment
+    android:id="@+id/home2"
+    android:name="com.example.test_bottom.itemOfFragments.Home2"
+    android:label="home"
+    tools:layout="@layout/home2" />
+  <fragment
+    android:id="@+id/home1"
+    android:name="com.example.test_bottom.itemOfFragments.Home1"
+    android:label="home1"
+    tools:layout="@layout/home1" >
+    <action
+      android:id="@+id/action_home1_to_home2"
+      app:destination="@id/home2" />
+  </fragment>
+
+
+</navigation>

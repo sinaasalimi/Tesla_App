@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  tools:context=".itemOfFragments.Wolfram_Alpha"
+  android:orientation="vertical"
+  android:background="#000000">
+
+
+    <androidx.cardview.widget.CardView
+      android:id="@+id/cardView4"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_margin="10dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:cardCornerRadius="10dp"
+      android:background="#ffffff">
+      <EditText
+        android:id="@+id/edt_function"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="function"
+        android:gravity="center"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+    </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toBottomOf="@+id/cardView4"
+    tools:layout_editor_absoluteX="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <WebView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/webview"
+      android:backgroundTint="#000000"
+      />
+
+  </androidx.cardview.widget.CardView>
+
+  </LinearLayout>

@@ -1,0 +1,4 @@
+#Mon Apr 20 20:36:21 IRDT 2020
+base.0=/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

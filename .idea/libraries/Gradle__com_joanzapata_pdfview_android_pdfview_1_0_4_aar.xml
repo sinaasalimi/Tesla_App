@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.joanzapata.pdfview:android-pdfview:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98d8abcc6ffb2b3a37520539dd05e41e/android-pdfview-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98d8abcc6ffb2b3a37520539dd05e41e/android-pdfview-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.pdfview/android-pdfview/1.0.4/3e314d76cd6dc3ac2f6a4d3d9992699fd6857883/android-pdfview-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.pdfview/android-pdfview/1.0.4/beb7b48cdcb474c4e384385d95feaf9883b04870/android-pdfview-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

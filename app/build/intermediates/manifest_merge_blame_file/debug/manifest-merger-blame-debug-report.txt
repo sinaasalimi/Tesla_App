@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.test_bottom"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:6:3-77
+11-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:6:20-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:7:3-65
+12-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:7:20-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:8:3-79
+13-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:8:20-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:9:3-78
+14-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:9:20-75
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:10:3-66
+15-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:10:20-63
+16
+17    <application
+17-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:12:3-43:17
+18        android:allowBackup="true"
+18-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:13:5-31
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.0-alpha02] /root/.gradle/caches/transforms-2/files-2.1/65dc2b21bd62d8b1f217bf7152bfde37/core-1.3.0-alpha02/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:14:5-39
+22        android:label="@string/app_name"
+22-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:15:5-37
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:16:5-50
+24        android:supportsRtl="false"
+24-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:17:5-32
+25        android:theme="@style/AppTheme" >
+25-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:18:5-36
+26        <activity
+26-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:20:5-23:52
+27            android:name="com.example.test_bottom.MainActivity"
+27-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:21:7-35
+28            android:label="@string/title_activity_main3"
+28-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:22:7-51
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:23:7-50
+30        <activity
+30-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:25:5-29:33
+31            android:name="com.example.test_bottom.Videos_Player"
+31-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:26:7-36
+32            android:screenOrientation="landscape"
+32-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:27:7-44
+33            android:turnScreenOn="true" />
+33-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:28:7-34
+34        <activity android:name="com.example.test_bottom.Splash" >
+34-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:33:5-40:16
+34-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:34:7-29
+35            <intent-filter>
+35-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:35:7-39:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:36:9-61
+36-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:36:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:38:9-69
+38-->/media/root/0C3045F83045E972/dev/workspase/Test_bottom/app/src/main/AndroidManifest.xml:38:19-66
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[com.squareup.picasso:picasso:2.71828] /root/.gradle/caches/transforms-2/files-2.1/92c27043ff4ff0d3c0ba5b4afb7aff8d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+43            android:name="com.squareup.picasso.PicassoProvider"
+43-->[com.squareup.picasso:picasso:2.71828] /root/.gradle/caches/transforms-2/files-2.1/92c27043ff4ff0d3c0ba5b4afb7aff8d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+44            android:authorities="com.example.test_bottom.com.squareup.picasso"
+44-->[com.squareup.picasso:picasso:2.71828] /root/.gradle/caches/transforms-2/files-2.1/92c27043ff4ff0d3c0ba5b4afb7aff8d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+45            android:exported="false" />
+45-->[com.squareup.picasso:picasso:2.71828] /root/.gradle/caches/transforms-2/files-2.1/92c27043ff4ff0d3c0ba5b4afb7aff8d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+46        <provider
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+48            android:authorities="com.example.test_bottom.lifecycle-process"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+49            android:exported="false"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+50            android:multiprocess="true" />
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+51    </application>
+52
+53</manifest>
